@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="./index.html">Поиск</a>
+        <a href="./advanced.html">Расширеный поиск</a>
+      </div>
+      <div class="header-icon">
+        <a href="#"
+          ><img src="./Images/app_collection.png" alt="Коллекция приложений"
+        /></a>
+      </div>
+      <div class="header-icon">
+        <a href="#" style="height: 40px"
+          ><img
+            src="./Images/user_profile.png"
+            alt="Профиль пользователя"
+            width="40px"
+            height="40px"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <img
+        src="./Images/MySearchPicture.png"
+        alt="Логотип пошуку"
+        style="height: 90px"
+      />
+      <div class="wrapper">
+        <form
+          action="https://google.com.ua/search"
+          method="GET"
+          name="f"
+          role="search"
+        >
+          <div class="text-wrapper pictures">
+            <input type="text" name="q" />
+            <input type="hidden" name="tbm" value="isch" />
+            <span>
+              <img
+                src="./Images/search_picture.png"
+                alt="Поиск по картинке"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span>
+              <img
+                src="./Images/keyboard.png"
+                alt="Клавиатура"
+                width="24"
+                height="24"
+              />
+            </span>
+            <span>
+              <img
+                src="./Images/voice_search.png"
+                alt="Голосовой поиск"
+                width="18"
+                height="24"
+              />
+            </span>
+            <span>
+              <img
+                src="./Images/search-blue.png"
+                alt="Поиск"
+                width="24"
+                height="24"
+              />
+            </span>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
